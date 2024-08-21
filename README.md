@@ -172,7 +172,7 @@ The R-square is:  0.6576861682430691 \
 number of test samples: 3242 \
 number of training samples: 18371
 
-Create and fit a Ridge regression object using the training data, set the regularization parameter to 0.1
+Create and fit a Ridge regression object
 
     from sklearn.linear_model import Ridge
     RM = Ridge(alpha=0.1)
